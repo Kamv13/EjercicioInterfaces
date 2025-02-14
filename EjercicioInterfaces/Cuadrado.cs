@@ -37,9 +37,9 @@ namespace EjercicioInterfaces
         {
             Console.WriteLine($"El Area del cuadrado es {Area()}cm2");
             Console.WriteLine($"La diagonal del cuadrado es {Diagonal()}cm");
-            Console.WriteLine($"El Perimetro del cuadrado es {Perimetro}cm");
+            Console.WriteLine($"El Perimetro del cuadrado es {Perimetro()}cm");
             Console.WriteLine($"El Peso del cuadrado es {Peso()}N");
-            Console.WriteLine($"El Volumen del cuadrado es {Volumen}cm3");
+            Console.WriteLine($"El Volumen del cuadrado es {Volumen()}cm3");
         }
     }
 }
